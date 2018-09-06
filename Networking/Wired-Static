@@ -1,5 +1,5 @@
 
-Description='Wireless network for WPA Enterprise'
+Description='Wired network with Static IP Address'
 Interface=enp1s0 # Check your interface with 'ip addr' command
 Connection=ethernet
 IP=static
