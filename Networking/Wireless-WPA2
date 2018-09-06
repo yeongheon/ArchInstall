@@ -1,0 +1,9 @@
+Description='Wireless network for WPA2 (Encrypted)'
+Interface=wlp1s0 # Check your interface with 'ip addr' command
+
+Connection=wireless
+Security=wpa
+IP=dhcp
+
+ESSID=your_ssid
+Key=\"64cf3ced850ecef39197bb7b7b301fc39437a6aa6c6a599d0534b16af578e04a # Generate a key with 'wpa_passphrase your_ssid pw' command
