@@ -1,0 +1,8 @@
+
+Description='Wireless network for WPA Enterprise'
+Interface=enp1s0 # Check your interface with 'ip addr' command
+Connection=ethernet
+IP=static
+Address=('192.168.29.2/24') # IP Address / Netmask, 24 for C Class
+Gateway='192.168.29.1'
+DNS=('1.1.1.1 1.0.0.1')
